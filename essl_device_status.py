@@ -13,11 +13,11 @@ from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 
-PORTAL_URL         = "http://35.154.100.94:99/iclock/Main.aspx"
+PORTAL_URL         = "URL of the Portal"
 USERNAME           = "Dashboard"
-PASSWORD           = "D@$h80#$"
+PASSWORD           = "Your password"
 GMAIL_SENDER       = "charan.bijapur@rentomojo.com"
-GMAIL_APP_PASSWORD = "zyit xolw btzg rjyk"
+GMAIL_APP_PASSWORD = "Your App password"
 RECIPIENTS         = ["whleads@rentomojo.com",
 "core.ops@rentomojo.com",
 "cityleadops@rentomojo.com",
